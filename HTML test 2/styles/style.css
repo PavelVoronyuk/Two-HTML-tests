@@ -1,0 +1,101 @@
+body {
+    background-color: #1E1F29;
+    /*background-image: url(../fon.png);*/
+    color: white;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+}
+
+a {
+    color: coral;
+}
+
+.listStyle {
+    list-style: none url(../galka.png);
+}
+
+.title {
+    margin: 20px;
+    padding: 30px 20px 10px;
+    text-align: center;
+}
+
+.str {
+    padding: 10px;
+    margin: 10px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.btn {
+    font-size: 18px;
+    line-height: 120%;
+    font-weight: 400;
+    text-align: center;
+    width: 200px;
+    height: 46px;
+    border: none;
+    border-color: rgb(175, 96, 228);
+    border-radius: 10px;
+    padding: 12px 24px;
+    transition: background-color 0.5s
+}
+
+.btn:hover {
+    background-color: rgb(166, 81, 246);
+}
+
+.btn:active {
+    background-color: rgb(89, 21, 153);
+}
+
+.inputt {
+    width: 50%;
+    font-size: 16px;
+    border-width: 0;
+    border-radius: 10px;
+    color: white;
+    background-color: #2E2D3D;
+    padding: 27px 48px 12px;
+}
+
+.field {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.field img {
+    position: absolute;
+    top: 17px;
+    left: 16px;
+}
+
+#area {
+    height: 100px;
+}
+
+label {
+    color: #AFB2BF;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+    top: 12px;
+    left: 48px;
+}
+
+.inputt::placeholder {
+    color: #4a4863;
+}
